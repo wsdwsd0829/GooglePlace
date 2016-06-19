@@ -1,6 +1,8 @@
 #
 # https://github.com/github/gitignore/blob/master/Swift.gitignore
 #
+#keys
+apikeys.plist
 
 ## Build generated
 build/
@@ -43,7 +45,7 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
