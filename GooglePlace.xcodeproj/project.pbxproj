@@ -16,6 +16,7 @@
 		5093523B1D15B059003282BB /* GooglePlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093523A1D15B059003282BB /* GooglePlaceUITests.swift */; };
 		50B742611D1638180066C0DE /* apikeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B742601D1638180066C0DE /* apikeys.plist */; };
 		50B742631D16386B0066C0DE /* ApiKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B742621D16386B0066C0DE /* ApiKeyManager.swift */; };
+		50B742651D163FCD0066C0DE /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B742641D163FCD0066C0DE /* ApplicationAssembly.swift */; };
 		AD9E86019039962CDA96AC53 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD3A9D79D40864FC828263 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		5093523C1D15B059003282BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B742601D1638180066C0DE /* apikeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apikeys.plist; sourceTree = "<group>"; };
 		50B742621D16386B0066C0DE /* ApiKeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeyManager.swift; sourceTree = "<group>"; };
+		50B742641D163FCD0066C0DE /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		85A39C847D7EF4CFAD126C8F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F42A2D34509C3D6DCD0A9B97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				509352231D15B059003282BB /* LaunchScreen.storyboard */,
 				509352261D15B059003282BB /* Info.plist */,
 				50B742621D16386B0066C0DE /* ApiKeyManager.swift */,
+				50B742641D163FCD0066C0DE /* ApplicationAssembly.swift */,
 			);
 			path = GooglePlace;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B742651D163FCD0066C0DE /* ApplicationAssembly.swift in Sources */,
 				5093521D1D15B059003282BB /* ViewController.swift in Sources */,
 				50B742631D16386B0066C0DE /* ApiKeyManager.swift in Sources */,
 				5093521B1D15B059003282BB /* AppDelegate.swift in Sources */,

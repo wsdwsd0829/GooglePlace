@@ -7,14 +7,18 @@
 //
 
 import UIKit
-
+import Swinject
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var assembler: Assembler?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        assembler = try! Assembler(assemblies: [ApplicationAssembly()])
+        
+        
+        
         // Override point for customization after application launch.
         return true
     }
