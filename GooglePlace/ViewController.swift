@@ -14,9 +14,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let keyDict:[String:String] = ["GooglePlaceApiKey": "AIzaSyAbZruledRtcu4VemFc7NizjONVun0qr-s"]
+       
+        let keyManager = (UIApplication.sharedApplication().delegate as! AppDelegate).assembler!.resolver.resolve(ApiKeyManager.self)
         
-        ApiKeyManager().getKeyForApi(.GooglePlace)
+        keyManager!.getKeyForApi(.GooglePlace)
+        
         
         let nearbyUrlString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=500&language=zh-CN&types=food&key=AIzaSyAbZruledRtcu4VemFc7NizjONVun0qr-s"
         
