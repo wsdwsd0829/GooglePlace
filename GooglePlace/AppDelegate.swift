@@ -12,13 +12,15 @@ import Swinject
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var assembler: Assembler?
+    let assembler = try! Assembler(assemblies: [
+        ManagerAssembly(),
+        ServiceAssembly(),
+        ApplicationAssembly(),
+        ])
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        assembler = try! Assembler(assemblies: [ApplicationAssembly()])
         
-        
-        
+        ApplicationAssembly.resolveAppDelegateDependencies(self)
         // Override point for customization after application launch.
         return true
     }

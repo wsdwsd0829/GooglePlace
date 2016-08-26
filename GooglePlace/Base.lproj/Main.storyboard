@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zyy-TN-vND">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Main Tab View Controller-->
+        <scene sceneID="Aqx-ty-gnd">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GooglePlace" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tabBarController storyboardIdentifier="MainTabViewController" id="zyy-TN-vND" customClass="MainTabViewController" customModule="GooglePlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="FSo-2E-kZp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Eh8-Hm-oBM" kind="custom" identifier="toListsTab" customClass="iOS8CompatibleTabReferenceSegue" customModule="GooglePlace" customModuleProvider="target" id="wt7-d5-gPP"/>
+                        <segue destination="zSQ-Nv-hby" kind="custom" identifier="toSettingsTab" customClass="iOS8CompatibleTabReferenceSegue" customModule="GooglePlace" customModuleProvider="target" id="STk-2b-Y1y"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1RH-fd-mj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-614" y="-94"/>
+        </scene>
+        <!--ListsViewController-->
+        <scene sceneID="7NA-Y1-rS0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ListsViewController" storyboardName="Lists" referencedIdentifier="ListsViewController" id="Eh8-Hm-oBM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="j6Y-a8-pIg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cXY-5e-CYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-121" y="-230"/>
+        </scene>
+        <!--SettingsTableViewController-->
+        <scene sceneID="RzP-0y-doL">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SettingsTableViewController" storyboardName="Settings" referencedIdentifier="SettingsTableViewController" id="zSQ-Nv-hby" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="vzX-nJ-RDT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ps6-jU-L7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-110.5" y="4"/>
         </scene>
     </scenes>
 </document>

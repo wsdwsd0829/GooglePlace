@@ -1,0 +1,857 @@
+//
+//  NearbySearchResult.json
+//  GooglePlace
+//
+//  Created by MAX on 8/21/16.
+//  Copyright © 2016 MAX. All rights reserved.
+//
+//https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyB0GOYHevVqklOX7KBjsoPW6yjec0ms8dw&location=37.3382082,-121.8863&radius=10000
+//San Jose
+
+{
+    "html_attributions": [
+    
+    ],
+    "next_page_token": "CoQC8wAAAOFUpz3dhLIgB_uLh0B05QSQD3gp_CHibVbeKNnZAp-IerhlGL8eQHgd5ErVV02IQrhaOxowbnJFoITKsbWbFSzqH2GgGRZhXHBMHr9ewpe-rxkldGEoPraWQl8N9oG9XR_DJWD3ofL-TRmwsNfEviwJ9Jth96aLgwZbZ108p5H9i9VHwcI8dIjM1vgA7SffA0PYDzK4Uzxk41u_hrbvSoD1hajbGzg5lUrAIaA79EqwFRYYmup-ysZA3wHRDoyync5jViP42rsnKO0SFGuLUEQclt1WP5oSIF7Bilu5KcRO0r7cXllGuv3X5dnNO518j-I93HYYc3BH1vv4j5ExFhISEIInsAQiqfcdQxiKZJbvRFoaFJgABampGOnbnkvUBaFnfNvb7E8n",
+    "results": [
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3382082,
+                "lng": -121.8863286
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.4695381,
+                "lng": -121.589154
+                },
+                "southwest": {
+                "lat": 37.124493,
+                "lng": -122.045668
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                "id": "c00d0e6ed23a5a6b418841457b33c47430a93a4c",
+                "name": "San Jose",
+                "photos": [
+                           {
+                           "height": 2340,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/111019459957256075770/photos\">Cara Pew</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAADrEnnlaF0bCcoTQ5-PelYJZ89lqB0xz9w4lGcHTmh3nUaQLWVdM4wsVhsKlQSXYkLnMKrs5DUQQzPYJ76lBZu7I85so4Qojt9NwSo4TQKYgd5qGWyEvMc71i0G4FcZZLWfCzVgtAkxaPA1yjmPQTI8EOc_PrWWGVi84foL6ceoTEhBsG0fSf7tlbJK8qT4XTnI6GhQh7SaQyriwO82KttHj3WnDg9SsQw",
+                           "width": 4160
+                           }
+                           ],
+                "place_id": "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+                "reference": "CnRuAAAAp0UXMoD3V9vJAMccUowgAneoXnej9WLxtygY3HVpbgftWEaYVVOqIz34d_eGWgaaOE3xyUyuHE6PYyw2i_QDY_lpE0BsMBgMNgALnqgMKR7z9bYOP1QW8WhATwxLRAAiC11SjCLwFZysEYo7l4uhfhIQisedA8-mXnMHwIErtEakCRoU6AjaOmrtt_bqXJszFuByyk6cu3U",
+                "scope": "GOOGLE",
+                "types": [
+                          "locality",
+                          "political"
+                          ],
+                "vicinity": "San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3309011,
+                "lng": -121.8876456
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.33101000000001,
+                "lng": -121.887401
+                },
+                "southwest": {
+                "lat": 37.33057439999999,
+                "lng": -121.8883794
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "d8d123b6093a58f32653144954e1253818f87cfb",
+                "name": "The Westin San Jose Hotel",
+                "photos": [
+                           {
+                           "height": 251,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/114825187166192378441/photos\">The Westin San Jose Hotel</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAABwDCk5HbiKRD4gsUOIn7euGgLkEhIM78QfMGhvHiuNj87PKnlwb2x3OlHo0VvyEZj_Sah-aCfpksWbRe6SwghdXGeiZmWjG4JcB1veWvyfROPH0r6TnZx6ZFDqhKDCbEwL1DgtFrnVuBWfe040mHuvRYJvxolNl43eQmUYX8dgEEhCkXC_TBX9cyOJxBWMoE3jaGhRQOaru0x8gVnH3X7wZyYWe5sKuYA",
+                           "width": 251
+                           }
+                           ],
+                "place_id": "ChIJqZitiLrMj4ARGTbRPXeLFgE",
+                "rating": 4,
+                "reference": "CnRsAAAACJ3_C0sWjWXLI8sJKSN5jtxD85ukBIdsJF1N9VQHdh5vAmFsEHdt4qNdKtpAgAzF-pzBxYCPAo8eWiw81Ll1otr5YCLkk41R4Oj_aHC0Y7x8MmCS98dC0EyJXHPByVLMYFmRtR31hz26sjbX5eES4hIQ_2VAGO2kN6JyWQI3OWcQKBoU3Iha6Mpy027t-ucdyI5apF3MA-c",
+                "scope": "GOOGLE",
+                "types": [
+                          "bar",
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "302 South Market Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.33297,
+                "lng": -121.889196
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.33307265000001,
+                "lng": -121.8890219
+                },
+                "southwest": {
+                "lat": 37.33266205,
+                "lng": -121.8897183
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "d55d6bc0ccd92ca5e1e25e404e8c15e423736327",
+                "name": "Fairmont San Jose Hotel",
+                "photos": [
+                           {
+                           "height": 3024,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/106147316764498333608/photos\">Thomas Kuo</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAF_etHCCdRcSj1q0ioac50eiLjf2dl9nE6Cv0BHOswelzhpbzg745uULXkQukV5--ThLYZmLGti9L5XyR83yfa83NF22qqfRJ2gbxVnT1dqYopN6tQ5Nv8gJtnZwFbqx7H9FjrfVELyITgEt-_0o76HJwhmQa7GJ_P7ly4fkCqGYEhBzr1CFIkKWSD8lShXOXfQYGhTvJKru4n6o2aH3aP0Yg9ShRInPsQ",
+                           "width": 4032
+                           }
+                           ],
+                "place_id": "ChIJJxVjI7vMj4ARPYYHcC-20vo",
+                "price_level": 4,
+                "rating": 4.3,
+                "reference": "CnRrAAAAKdj1jHFoiKJhrIMOjX6OnWvHBY3vwhciadYs53c44TtZwr2BZ9pvfiWZ45Dxyqe22JJTu0sbeXxTWzFQtf8l8X0H2u0yC0pXnnJtqHTRJURijARY7b0_U_NtyxetQO_xqQK--G1DsToT7mjvNjK3zRIQhiEOl3wHdTFNGcEVO6vZxxoULh9lyI-eFBM8S7frfFzSY-fjDIQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "170 South Market Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3342961,
+                "lng": -121.8950015
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.33437514999999,
+                "lng": -121.8948395
+                },
+                "southwest": {
+                "lat": 37.33405895,
+                "lng": -121.8950555
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "e665a15627d0b1ce7652d9a85f6819ce4a7898bd",
+                "name": "Hotel De Anza",
+                "photos": [
+                           {
+                           "height": 4262,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/105924641130760265274/photos\">Hotel De Anza</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAKNX7sNitG2ktWPOwXJiTRAt8HriTNC_HasyuIptMTzqH1k6AuwOHDGI18rq7m3yNjZx6E_FTidttdgLURAcZsAy8tW8Rww5xdeT8fUHUFTKjIqM0Epxt91KQrpB6qMKfcVHLC7CgGBq5A2l9xq9egyQV0Mw_Z17NBnBAdd0L15eEhAFVaDu6brBSDwu_GpX56_pGhR-PavO0c-RJxkHWWDuCh6WbTED4g",
+                           "width": 2832
+                           }
+                           ],
+                "place_id": "ChIJVSkbwKPMj4ARVqNJC8J8ftY",
+                "rating": 4.2,
+                "reference": "CnRhAAAAbV9rc7Vi-Vu3wP0qxPtS0gXJ6airNYkuvFFEZ8uAYTMfiOYoKD4GzkTDT9GteLSNFLWNAK6saTmkD3nX6N0csuxPJr5iaN09ix00L70LkiXPFHmsWKSg3filKVu63pj9Dbiohwi_C3JIzY0kUoFcyBIQoiwNz4B0q8k3YC_fMBHfoBoUhvRf0CwaSagdCYHYuOHmklzM000",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "233 West Santa Clara Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.32950350000001,
+                "lng": -121.8846845
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.32985119999999,
+                "lng": -121.884224
+                },
+                "southwest": {
+                "lat": 37.32938760000001,
+                "lng": -121.884838
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "5cde4b2a9188f0e06ed344c3d0162441a0ae7603",
+                "name": "Ramada San Jose Downtown Near Convention Center",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 3264,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/111670904958520707945/photos\">Danvi Vu</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAADmacEQ0pQkijRwNL2PmX9zwpXCiUexnyAWGUJ-xXGb3WbP1Je5whttXZyizLraN3Vu0Y3RG9W2UqWhOAFNKkx6i_r1oJTRLLAi20D3UFMmujqtCznpf8LU0419yxwqTsbcpyPO3ZPZfO9M8I5uKE_L39vufuwiwp0GNZOkK4ZK8EhA8jLrituO-E6Wy966u1fwPGhQoq3R1-4eSsR_VW2P5wfMwvhiOPg",
+                           "width": 2448
+                           }
+                           ],
+                "place_id": "ChIJBRiaM7fMj4AR6WJ0KjJoyNs",
+                "rating": 3.7,
+                "reference": "CpQBhAAAAOWFQOJDBDbpcZnZelEnyZ6ec3gDX6CQgrxWGde3Dg3r1MWsdMRbhsy1EYtANBxm-tYluwNoEm1MvXRCSZeHUJTHG_Fvnt5hSVNwxLwowqcdJdq9bqbZbu5AEDBE8ecy_qSZapO0gu-mSoY1tvSterjfrgtAB2iFFiu2PpXNnAaayBaUlLPnFa7XxgRL33aH2BIQ0TpGXvsRyoXrztb0XkbechoUkNwueZgdtu7kQ-Gd1emJY0VeY3I",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "455 South Second Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.330371,
+                "lng": -121.891662
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.33052470000001,
+                "lng": -121.89162415
+                },
+                "southwest": {
+                "lat": 37.3299099,
+                "lng": -121.89177555
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "902207d463eefbb34e5f3c3d3c547f4512711ba2",
+                "name": "Hyatt Place San Jose/Downtown",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 703,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/110456462347773710163/photos\">Hyatt Place San Jose/Downtown</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAFuRzdG4M7DPDlqxCwqzQe_o2XyuQOag4BcP8zgTKfKLFMetQCO7fn2mgJ469wjYZdo7QlTE1nACLcgwsBFe4HfZYV5eq2m6pHzh8E0ACXGtCwWeZApZazsRIDLfxDgSRfziRQEG-ouQj8sgi_pEjKJU-5_6R6ZKIlkAhE8IFnqPEhAGTsnqUDA-y6ysOK1xUfvBGhRn6C2uUDBG84NGLU-Q3Db6K10VPQ",
+                           "width": 703
+                           }
+                           ],
+                "place_id": "ChIJdYOsXKXMj4ARThVgcWWybKM",
+                "rating": 3.9,
+                "reference": "CoQBcQAAACwSnM9HbWA74Br_PKiNG_N3-v6nUdaJ8wckkP3rzIhcZVd2P-OpbyraMDauikQn12bNSGcWXNfLy_MciZhTUjNugXqWngvqbbWyS9HGKKCuzOAixX_11jd3P_nCfOWQWanav2xJOSiFbyNPfykIx9ziQUdYPamVLaPa9QV50EhsEhBsT8vfpLR6p3783j42CpZXGhQLuDaTX0rjKzMt_J3RnsYo-GAcQQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "282 South Almaden Boulevard, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.329187,
+                "lng": -121.890499
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.3292296,
+                "lng": -121.89027925
+                },
+                "southwest": {
+                "lat": 37.3290592,
+                "lng": -121.89115825
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "9f44b2c70b23fb5923c352bf1c8956a1e143c2be",
+                "name": "Hilton San Jose",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 359,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/102216875543826692094/photos\">Hilton San Jose</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAGhkgoa7rrZZSamQ8bNhbM0wL9YBX7Aj90CudgURY5QR75eiDnz25E5u0uaptaLfQ7VBPqB051tf5qLuewemXTXdvBc6dPp3eZABHCKAPrZh2My3OcVGIYZKFm___Rm1j9KrzYcPd4M0sQ1IrGmKmdqBhblTEUNJg7p4MicQYNlgEhDPVTJVduzNdzYh7SGO9GdJGhQp0MR1RJO1heR3Eyt7dQKScozDAw",
+                           "width": 359
+                           }
+                           ],
+                "place_id": "ChIJwTUa-q_Mj4ARff4yludGH-M",
+                "rating": 4.1,
+                "reference": "CnRjAAAAkd0i1shsVaZVw5-o5CQ-M6sLhjxAm20lJVHqjZI2TnrYsePCTWELxhGkGiI9YFNa06AoozTa7b2vFHHvkyIXcdhSjVmKOYwIyVzpm8hFsZH_NJjsRGpaRpHGQr9waVgcRXMpRauvlSnk1tGA4_gKzxIQ7CMNR5DZoh0WNj03-TXqLRoUyEh1FC31Rmz3c6BcWX4BGCBOIHQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "300 South Almaden Boulevard, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3322259,
+                "lng": -121.9064587
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.33243829999999,
+                "lng": -121.90641685
+                },
+                "southwest": {
+                "lat": 37.3315887,
+                "lng": -121.90647265
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "764672e105d60c9447dbf2aa53ede23bf3c7043c",
+                "name": "Arena Hotel",
+                "photos": [
+                           {
+                           "height": 3120,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/104409702597682673587/photos\">Sina Ferdosi</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAABrxm4sZJ2pdfNgsA2iEuPOBhZEg9nj-SrnOGfFizO9oZJM35ycGaBkjdKCL3Swq-byWR-v_SFdmnO77jp0TCbBv-Q5qGm2tMZaaEaPF5SLQ2YRycbEx2MSTMbc8P3uxu3F-isuYVE_rLonorxLFktj6ZmW4y7TPznPwnYsIch1-EhBbdDVKMXSDS7s_l53PRxjeGhTVJBiyDVZp2pl6zBJLLoKOViKwaw",
+                           "width": 4160
+                           }
+                           ],
+                "place_id": "ChIJJ0cqYF7Lj4ARTSvJOUW51N0",
+                "rating": 3.8,
+                "reference": "CmRfAAAAziDYQsWpCXfx8X2T_VTg7dL9vmy_E190AkJAw0_hTucitE_Uga0pxnkvvEyAo_-hxF_QqnfhDLNUZTe2NKbU0lpJ9C0Cs-ecxaAbqViNplkxP0jFYOZQPabYqiIuBqtmEhA4nhUwg3le3EqvXPnNrh8FGhSyJLcKxTqauJbMOPEhfkBGVYCeaA",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "817 The Alameda, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.318227,
+                "lng": -121.876413
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.3185609,
+                "lng": -121.8759183
+                },
+                "southwest": {
+                "lat": 37.3181157,
+                "lng": -121.8765779
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "45a2ef0c9a77ee588511e9da5b0d78a93fbb0b43",
+                "name": "Hotel Elan San Jose",
+                "place_id": "ChIJuRUIijYzjoARlOfgzVs8r2I",
+                "rating": 3,
+                "reference": "CnRmAAAAdZYLpHy7aG_6qoR4xAOFvuOIYNYPrRgy7M_KkezrjovW8wvNicNksJQWIpc24MQZcVxi8Vf85pe4RJsIArFHTjHBaGyfy-AgiCX6bqZ3V6U-fEjg_6XBGQ4MyAG8pPEBS_XHPxM7dRTUhEphHj8WcxIQEDrVShFgS7QBE6PUrulODxoUZGVTZR0rar7mbissj2TIznVT680",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1215 South 1st Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3404459,
+                "lng": -121.9216222
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.3406639,
+                "lng": -121.9214064
+                },
+                "southwest": {
+                "lat": 37.3397919,
+                "lng": -121.9222696
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "deb00c54a45ace1717c196399983495b09da186b",
+                "name": "Hotel Rose Garden San Jose",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 427,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/104179401888563384087/photos\">Hotel Rose Garden San Jose</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAABFVMYzWV5anIEz-yATDu4Odmy0xqXBZJiaf2yGzWF0gUjEuWP75S5Kn-dcxva15XXdApYES6L26ZQ4fYrD1R1JVr-XydTV-2mhp7XOk90rLUp79djc6b8ml4vwVy8afbdqh47f2r9rlYWBWMxX593gTuxrlU3xUa61dbCjTh2hdEhAvn1dKzcO0mdfOohDlHjW7GhRECQ7z9T_DeJfLZJ_aJZuVESG1cA",
+                           "width": 427
+                           }
+                           ],
+                "place_id": "ChIJBy5viHLLj4ARkIhdtDHYi_M",
+                "rating": 3.1,
+                "reference": "CnRuAAAAR68fhkHCdIhnhNdPejeiRuMSD4LcOiImGCXnsBTDHylrv80pAqAuGw67S0ehhg_28nFgZxkehFq9j80tI1nO9IotjUPY50vjP_nNA5DQKmIPCyGSkcPD7av5CTiqaqgjybRDvtkY7XePrhggughvixIQ-5MtrP28TSdHcClcEs6zARoU7jPQA-o_5tlsLoDRZO2N9dbdfFQ",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1860 The Alameda, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3605927,
+                "lng": -121.9080014
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.36070374999999,
+                "lng": -121.90776715
+                },
+                "southwest": {
+                "lat": 37.36025955,
+                "lng": -121.90870415
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "6c78345e199f9f4ca8ab700513064569b164093d",
+                "name": "Caravelle Inn & Suites",
+                "photos": [
+                           {
+                           "height": 2448,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/116688678694144495892/photos\">Christina Martinez</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAMPt3N9j0BHfnNcDpaBUtvKRfnAOJLnnY0j1ptdyz2nXI9puB3pm9oIHjLWXmiWICtqsRn83L-Ym9sgJ94GBc8nTgfzyn0UJbt27SteGzCQHKVArxnvePp8mwfeOHXwudOW22e9gp7cq7Mpu37umk5fdIN_pfe71bTfBbcelO3-YEhCfYZKJFooFvIBEDf4GMp1IGhSjzhtfgyacl_RlS_PlQU0_B88pLw",
+                           "width": 3264
+                           }
+                           ],
+                "place_id": "ChIJkwea1oXLj4AR_jwonONh0bA",
+                "rating": 2.4,
+                "reference": "CnRqAAAAMsL6LWXZpuLEjyv6tO4Y2kbJ4CRDMBO41VAniCPBq1OOq3mQhjZ4gayQ6VbVdHimBKfRfAGMbOXJalMh_Ese9iSwtykPRZ9T9AEsYef-jWJ2NO2e7pxAd32DlZa0l9Vo_gJ62IrbP0UH4bFnJXMJexIQUsE7SaZbcAWDk_ns3tjfZBoU4dV63RM2_kVMmTM4cm7slAdOQLA",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1310 North 1st Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3656746,
+                "lng": -121.9179764
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.36612699999999,
+                "lng": -121.91734985
+                },
+                "southwest": {
+                "lat": 37.36552379999999,
+                "lng": -121.91818525
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "7f32fc7139859effa8d826bf4bedafe4ce70d1ba",
+                "name": "Courtyard San Jose Airport",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 423,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/108439064951167078193/photos\">Courtyard San Jose Airport</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAPrjXMNGWGqmr2OEPd9FW9Uk25A99QVq4RVQcPMBylwJKFsozQP78gbA4p56iAjx7CeLzqLnhUYLCsMXfNNRgB2SY06aNJEaV6c_0MxIg7_vstACOhLGTSHBtERvlHnXXERZ_vQJyJ0mKigURhNKg5xIhHddM-6sL5livStX2_FoEhDFoHzyA3n2K996YHcK3GckGhSA2x4CkbKOLCBuonMw6TQfBRvX9g",
+                           "width": 610
+                           }
+                           ],
+                "place_id": "ChIJf3Rp6pPLj4ARV_ZqG8IhgSE",
+                "rating": 3.9,
+                "reference": "CnRtAAAA6FTBBfRW_dGDwVGR56I8Fj0pjvythOaEkFrqznfRhlLw_Xb_jbgCX_z4rs-i9MQmpYMMwxaZtfO5CzhbLp_vE1vpGrfkevJTmDkEU6nNCAcPOp-wIWq8Ui30lDfubAmSwXBnJUq-HRBZB9jox2luABIQVzi0EHfCRgMDkupjklZ1ExoUohP79yLwduwkwvzgYFpbPO-Dobk",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1727 Technology Drive, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3724103,
+                "lng": -121.911115
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.37261414999999,
+                "lng": -121.91073185
+                },
+                "southwest": {
+                "lat": 37.37234235,
+                "lng": -121.91226445
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "98e126df1d317be08dd35209f4ab47c3537095f1",
+                "name": "Staybridge Suites San Jose",
+                "photos": [
+                           {
+                           "height": 2560,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/101574768346388420509/photos\">Staybridge Suites San Jose</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAD2ByqalBgyH_cbIXx5UJzQB4SPe1RyUC_qYrtNYY61XAK62IyxNBASqO-BO9TihxPb5mHPSo466aGz0dPxV5MJAECFxcQmFQXJQSC9Ul0x9BEWOxmOK8pCwPOHcUdzZKiWUM1XeQYfMdvBeftrPIM4DD6NwL3l16Vm3KBwwRfxFEhBqA5-wZEMFNvuY224ggO9gGhS3MmgRLzNIqdg9IbUxmxIk9iEKsQ",
+                           "width": 3840
+                           }
+                           ],
+                "place_id": "ChIJvfYujfLLj4ARNK3HJdqghfw",
+                "rating": 4.1,
+                "reference": "CnRuAAAASSA9pL1uiH16HudsKq_NdVnTksbq-FiHAha1Hep1gfZ4mC1u1D1lgX4jnqRxGlco_cxd1b2ANcrh6lu0dHt3g5qIfj0zXfrIfyvfo59PZNvg8PCKPv7_NbVFEsBsqTJpK3Cn6LsAmk5eKkzbMZJ8NxIQyZ-u2JvInxvPHQfymn6gdRoUlON4w_JeBneGhcPEdAca2PbKMzg",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1602 Crane Court, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3707188,
+                "lng": -121.9174277
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.37077085,
+                "lng": -121.917305
+                },
+                "southwest": {
+                "lat": 37.37070145000001,
+                "lng": -121.9174686
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "81b61acf5fb389487dff1024341d2f4fbaebf851",
+                "name": "Fairfield Inn & Suites San Jose Airport",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 423,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/114277282944571017611/photos\">Fairfield Inn &amp; Suites San Jose Airport</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAEyhrsMlMqsSHxWWHiW5G-hg6V4_gJ4fEGVNWwwqc_X3XxLLdgiCKM1K6PtSGl7ySWnT-fDKDYzlLcecjPqVCZwpDD_wtRlH5O-2v2dj1SEDrO-XrHyDqGzWwYmV4JkVrSlJ0l1LxoGBJ9LkAmVTwlq11ahPRJNQj-WnmU4zMFhIEhCWF39V8uzTYgGheiyWTtgeGhSAXaaDPGDTCT03TezHQARCc2E3GQ",
+                           "width": 423
+                           }
+                           ],
+                "place_id": "ChIJ1Q_Ji5LLj4ARvnfD6_dlgU8",
+                "rating": 3.9,
+                "reference": "CoQBegAAACsPs5Eo-mmRr10J5zqTcWvsgbt-iMQ-7oFTSeqN5ZyVv1Y6dgCgRW9ZVG-k4nUa7bIj1TMb0MmvAAWKjbnCH7FXYnuPOIC8GFsiVweFWPHiFUP0eTwxrPg-Ovcw_hKdbxsHTzoAX0JVtgVKDQV5yt-iISo5CIVOean9xOBwUYJtEhBDdKMzpTiPTW109eEsW-r5GhQlZtKjSi1ELD_ieQh-LWjPd7Hx2A",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1755 North 1st Street, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3523853,
+                "lng": -121.9354157
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.35254295,
+                "lng": -121.93536465
+                },
+                "southwest": {
+                "lat": 37.35233275,
+                "lng": -121.93549725
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "b427ef8d1b46eec00ab9435c60e72f02617ee7b2",
+                "name": "Candlewood Suites Silicon Valley/san Jose",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 1518,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/118319437241455217680/photos\">V Sridhar</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAFWyvas-VCiiMCqkatyGFB9932hBImGvi25cL8OkuAQKy3Fv0cecI2XREPZVvc8nbkpscGsfjl_BOUG6sWPO2weeEVhcRQE5EO1LV-Jar5asih-u-qIINJ1H415enhL6dB5PU2UNM_kxWldWsk6OxgkTqZnw7tyUQ4CniCQhkQKcEhBgPklVZ_T2wLwGBxctxmCCGhSX5KYhw58ixT5trI4PBNYuqcMANw",
+                           "width": 2048
+                           }
+                           ],
+                "place_id": "ChIJHaGDea_Lj4ARSRJTEayCEdI",
+                "rating": 3.8,
+                "reference": "CoQBfQAAAAqNdYAgz_xr3sT9PMLc5IQuMK-1GPQpP6JrxELmgH9cwON84MzPE7X0aBXhLExXjRSAU-g_4tdNE7SZb8G1hridZs7y37gpl_s8xGvZ_X8wH-OB8IKC-FwC32Y5Cb8y531baB_ANJ_j0W9voLM0pgksHsHJvexBIXKH2DcWSQQZEhD0eOw4kjcmx6MFkDCOIuKbGhSGXmhvooPAt-L0fuTPXJJfmjptZw",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "481 El Camino Real, Santa Clara"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3230614,
+                "lng": -121.9365319
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "30075aa0ac67829da40ea4c6ef12545b0e598c60",
+                "name": "The Row Hotel",
+                "photos": [
+                           {
+                           "height": 3024,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/105944528335400214850/photos\">Cherub Chang</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAMeL_rZJhzDaPcioLMWQ4zZ570tygNroXnaD-zcuGLxkQLmKFkYQIZX5nk48UfLs-gVrV3jB2Hnk41uQHclART-I9dQw7a2LWazG6cCI3I0xW2ofhxEPeuCYt9BL79Q-fd1dp7G5m2bomQapwx3gUSc7K28fOe5YUEl9IYatN07HEhCoGeBOwjr3ZObCAmnUtuiOGhRNOtkQGb1vlIBLEM_xs8Cvad6DGA",
+                           "width": 4032
+                           }
+                           ],
+                "place_id": "ChIJh1_V1iLLj4ARAM5TkMqMJWA",
+                "rating": 3.2,
+                "reference": "CmRgAAAAyGdQ-8lOJtuLKpY42JyPDRoqUaVC7jdZqLya5f8ZBGU0wKAH5IrjLO75-3GIx2_JfsxgrcMedntOg9VhnGd7lnhFz4Ov_8320UoakkONwSDKoOjXcbMxogKlVX8_2TT5EhBBIpoowANn5gxGTyf7mlwmGhS5wa9_tQc-U8R2F5KWM0Jni8gj5Q",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "clothing_store",
+                          "store",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "2404 Stevens Creek Blvd, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.301841,
+                "lng": -121.857765
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.30206195,
+                "lng": -121.8570651
+                },
+                "southwest": {
+                "lat": 37.30117814999999,
+                "lng": -121.8579983
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "f785d9fec2619b4cc48949c9edfb482b967cd0aa",
+                "name": "Hampton Inn & Suites San Jose",
+                "photos": [
+                           {
+                           "height": 520,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/109740838731487943174/photos\">Hampton Inn &amp; Suites San Jose</a>"
+                                                 ],
+                           "photo_reference": "CoQBcwAAAP20CwP6Qr0azm0LZoWXcyZhx2Ur3g-pDGlIXQeCMSi6Txeh_lIn3iwZTu-Y7JG5dDTj8dciSC80hQTTx_il51eEw4nXeGcfg55gDbnWSUrMxoDwzXr__2bqagME2UtjABy12-p8ah53HyyCIQG7-QlXSz-3nqaUkZ57Oz42S_JMEhA4zST189yJnm1UTjJX4oK4GhQsJF56k2FWUEcsgSA5Z9ur9nuZOw",
+                           "width": 521
+                           }
+                           ],
+                "place_id": "ChIJO48RNh0zjoARIVv5z1B26yw",
+                "rating": 4.3,
+                "reference": "CnRwAAAARNkRNiQ1dg26SdHG1xiPFOsWwthI_cXWoRKG1T5XZN4knyzRCj0hmzQQC97lsK7bwkJIGpXkkeINmvTRoPzoSySuSPbPXvLWJ6yWgYSfSmoLCB2t8zG_kC0qiV0jxvoNE9T2j7qgQUNyyTwdu_H6rhIQ1_vI__zT3s7jw-56ai8zcBoU_M3YKQc8YOrQpG0sARNCeM8JeeE",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "55 Old Tully Road, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.3718511,
+                "lng": -121.9227015
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "b1cfb1d11c27463c071ce2a6302ad8dac88fb894",
+                "name": "DoubleTree by Hilton Hotel San Jose",
+                "photos": [
+                           {
+                           "height": 4160,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/109260779988265598681/photos\">Raymond Ou</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAGy7DLHkzvAXdzw1u1G-w6MAJJJ5RTWf9eMbJp-pHerKBP0pFmPQT15dyZ6PTmHyd3sW-cOv4sT71ibEKNGY9bFlkWOFfpUnUjgJ5MOMz60zkbVRAWSLTIvNdEufiK3yOg2PLzXhYSSScDGqIiVJSdXo8QWNOAzpCVu3SMNy1hWPEhDpygMY8KZ0Vc8lkggKRQFkGhSiKzuVl6OfvXxwCvc-BFjdPEAuHQ",
+                           "width": 3120
+                           }
+                           ],
+                "place_id": "ChIJK0PeRurLj4AR9WQha5RrPRQ",
+                "rating": 3.7,
+                "reference": "CoQBdgAAAB3tJmN7mFzzIQ6AbuQTWpXTJP24yXfwPs8PDYI187KYqA7RThc-a4WkDOzkrgjDYDwze3a_VXzZ1sVuXapiEssB7Y2Elvn-wpNNQo5CIPjqKO4ZY9NqayDiozEV4xKTuqs7oe0fARR9VhETXLlvmoOYu73KezqnU8c8NEJN-oVTEhC2z9mBJGc-0Um-PtcEg3y0GhSAQavv3E5sMLFmitX8fvQ8ZEMqTg",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "2050 Gateway Place, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.32019880000001,
+                "lng": -121.8300333
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.32036875000001,
+                "lng": -121.8295308
+                },
+                "southwest": {
+                "lat": 37.31968894999999,
+                "lng": -121.8302008
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+                "id": "0df2e77b6afd95d63b747ce2bed0e4ade6d84c43",
+                "name": "Best Western Lanai Garden Inn & Suites",
+                "opening_hours": {
+                "open_now": true,
+                "weekday_text": [
+                
+                ]
+                },
+                "photos": [
+                           {
+                           "height": 680,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/104004045746687967421/photos\">Best Western Lanai Garden Inn &amp; Suites</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAFq_bTTz1FMUaYI3h8O2bxT43OfxGs1OFSfH1soHdSOn91jrFcLkghgIhfHFAOgeMqdFBS7HAS-oXIy17o_UFTaGTRO476qY0NJ4RxQB2fNpCMhYNz83WLTEZ8f9kArSNx9_x7DUo-Veny-bkHlfh0aiVX2o6ZBgNyxkW09wZ89vEhCtiWChwBppzgGxU1vnBnulGhRgcPeCdH9A_i0YIbpW9UNwIDOdxw",
+                           "width": 1024
+                           }
+                           ],
+                "place_id": "ChIJt4pNSb4yjoARmP8hAllwr6Y",
+                "rating": 3.4,
+                "reference": "CoQBegAAAB3JUCPuBpKmZmJxZxhgTC6000qWPz7WgU2wR7GddAQEQCQEFEcKqLVoZat-abEW4zBR9vPRAz7RntPYtniHDub6tfnYar8uTXng2cyGgtUKHbrWt3EkcbVTWHx3iAs9A6JEBdd5TtbSwcEX-PEUW7GEMcUne7N3r9EQ53OBpr3dEhB1PflbvwHxkmiIouk2M2vuGhSz9C8K5MqY30DYqNszB4jtlHMnFw",
+                "scope": "GOOGLE",
+                "types": [
+                          "lodging",
+                          "point_of_interest",
+                          "establishment"
+                          ],
+                "vicinity": "1575 Tully Road, San Jose"
+                },
+                {
+                "geometry": {
+                "location": {
+                "lat": 37.35410789999999,
+                "lng": -121.9552356
+                },
+                "viewport": {
+                "northeast": {
+                "lat": 37.418939,
+                "lng": -121.9297351
+                },
+                "southwest": {
+                "lat": 37.3228419,
+                "lng": -122.0053701
+                }
+                }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                "id": "77c1ea34a3cdaff60655ed9990331e5d447ed5e1",
+                "name": "Santa Clara",
+                "photos": [
+                           {
+                           "height": 576,
+                           "html_attributions": [
+                                                 "<a href=\"https://maps.google.com/maps/contrib/103496955164507610292/photos\">Chris Hyun</a>"
+                                                 ],
+                           "photo_reference": "CoQBdwAAAChGh2LmG6vk4UwQy-qz_xhZPVWIZeOS8uCpqurPV8QRmSXon8dO4T0ifWlv_hjKFlkxj9qfgBt9jtLf2Pq57CqEqxyxgM0MPaZY48TZcc3uEk8oNf5DKJYha8_0preUmSq0UkGk8iyB7ZrvbcLrSEuDpeo5BrJF6o67IgerTe20EhAPJTxgTOwL-rEsMOobeIv2GhRkirhnCBqGRoYxlrln310SXRG-5Q",
+                           "width": 1024
+                           }
+                           ],
+                "place_id": "ChIJk8EIXIG3j4ARwL_Ao3ykdeQ",
+                "reference": "CoQBcQAAAP4lVp6QRipB8ojN-HwNBB-Q1a9YndD13CeZ05nwCrDa6pZ5wkjbJdzVBQ_4O_DIa2mdZ4RQuJcYf_nfw9rxtgq7sMyQDcSH0LKWsaD2wi1zB02j1Nc2OxsuZGgHL5eGuEeYN0DGs-Sx-ztDAn6J9Axdcrde8gCEJ8HSjLOXyNh-EhBWTYPwA35EaweINYLBy6KOGhSf432UaBOVv6tFQ-QOmYtdquPvEw",
+                "scope": "GOOGLE",
+                "types": [
+                          "locality",
+                          "political"
+                          ],
+                "vicinity": "Santa Clara"
+                }
+                ],
+    "status": "OK"
+}
