@@ -27,7 +27,6 @@ class ListsViewController: UIViewController, LogManagerDependentProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         logManager?.logConsole(String(self) + " loaded")
-        // Do any additional setup after loading the view.
         
     }
 
