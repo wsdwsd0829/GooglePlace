@@ -15,6 +15,9 @@
 		5009EEF81D4EC3BD009D3417 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009EEF71D4EC3BD009D3417 /* LogManager.swift */; };
 		5009EEFA1D4EC468009D3417 /* ManagerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009EEF91D4EC468009D3417 /* ManagerAssembly.swift */; };
 		5009EEFD1D4EC95D009D3417 /* iOS8CompatibleTabReferenceSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009EEFC1D4EC95D009D3417 /* iOS8CompatibleTabReferenceSegue.swift */; };
+		5051759D1D89CF7F00D05FCD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5051759C1D89CF7F00D05FCD /* Pods.framework */; };
+		505710151D89CF13000DD508 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505710141D89CF13000DD508 /* SystemConfiguration.framework */; };
+		505710171D89CF19000DD508 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505710161D89CF19000DD508 /* MobileCoreServices.framework */; };
 		508E5E891D697D520056412A /* GooglePlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E5E881D697D520056412A /* GooglePlaceService.swift */; };
 		508E5E8A1D697D520056412A /* GooglePlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E5E881D697D520056412A /* GooglePlaceService.swift */; };
 		508E5E8D1D6984780056412A /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E5E8C1D6984780056412A /* ServiceAssembly.swift */; };
@@ -34,7 +37,6 @@
 		50B742611D1638180066C0DE /* apikeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B742601D1638180066C0DE /* apikeys.plist */; };
 		50B742631D16386B0066C0DE /* ApiKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B742621D16386B0066C0DE /* ApiKeyManager.swift */; };
 		50B742651D163FCD0066C0DE /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B742641D163FCD0066C0DE /* ApplicationAssembly.swift */; };
-		AD9E86019039962CDA96AC53 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD3A9D79D40864FC828263 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		5009EEF71D4EC3BD009D3417 /* LogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogManager.swift; path = Managers/LogManager.swift; sourceTree = "<group>"; };
 		5009EEF91D4EC468009D3417 /* ManagerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManagerAssembly.swift; path = Assembly/ManagerAssembly.swift; sourceTree = "<group>"; };
 		5009EEFC1D4EC95D009D3417 /* iOS8CompatibleTabReferenceSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS8CompatibleTabReferenceSegue.swift; sourceTree = "<group>"; };
+		5051759C1D89CF7F00D05FCD /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		505710141D89CF13000DD508 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		505710161D89CF19000DD508 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		508E5E881D697D520056412A /* GooglePlaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GooglePlaceService.swift; path = Services/GooglePlaceService.swift; sourceTree = "<group>"; };
 		508E5E8C1D6984780056412A /* ServiceAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceAssembly.swift; path = Assembly/ServiceAssembly.swift; sourceTree = "<group>"; };
 		508E5E8F1D6A15F10056412A /* GooglePlaceTestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaceTestService.swift; sourceTree = "<group>"; };
@@ -94,7 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9E86019039962CDA96AC53 /* Pods.framework in Frameworks */,
+				5051759D1D89CF7F00D05FCD /* Pods.framework in Frameworks */,
+				505710171D89CF19000DD508 /* MobileCoreServices.framework in Frameworks */,
+				505710151D89CF13000DD508 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +283,9 @@
 		A5A0B9F744501EC3F93B1F7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5051759C1D89CF7F00D05FCD /* Pods.framework */,
+				505710161D89CF19000DD508 /* MobileCoreServices.framework */,
+				505710141D89CF13000DD508 /* SystemConfiguration.framework */,
 				00FD3A9D79D40864FC828263 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -352,13 +362,18 @@
 				TargetAttributes = {
 					509352161D15B059003282BB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9MKJC68VMT;
+						DevelopmentTeamName = "Sida Wang";
+						LastSwiftMigration = 0800;
 					};
 					5093522A1D15B059003282BB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 509352161D15B059003282BB;
 					};
 					509352351D15B059003282BB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 509352161D15B059003282BB;
 					};
 				};
@@ -629,11 +644,17 @@
 			baseConfigurationReference = 85A39C847D7EF4CFAD126C8F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = GooglePlace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -642,11 +663,17 @@
 			baseConfigurationReference = F42A2D34509C3D6DCD0A9B97 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = GooglePlace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -658,6 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlaceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlace.app/GooglePlace";
 			};
 			name = Debug;
@@ -670,6 +698,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlaceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlace.app/GooglePlace";
 			};
 			name = Release;
@@ -681,6 +710,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlaceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = GooglePlace;
 			};
 			name = Debug;
@@ -692,6 +722,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidex.GooglePlaceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = GooglePlace;
 			};
 			name = Release;
