@@ -7,20 +7,20 @@
 //
 
 import Foundation
-enum ApiKeyProvider: String {
-    case GooglePlace
-    
-    private var apiKey : String {
-        return self.rawValue
-    }
-}
-
-class ApiKeyManager{
-    func getKeyForApi(provider: ApiKeyProvider){
-        //Read apikeys.plist and find apikey corresponding to ApiKeyProvider
-        let filePathInBundle = NSBundle.mainBundle().pathForResource("apikeys", ofType: "plist")
-        let keysDict : NSDictionary = NSDictionary(contentsOfFile: filePathInBundle!)!
-        print (keysDict[provider.apiKey]!)
-        
-    }
-}
+//enum ApiKeyProvider: String {
+//    case GooglePlace
+//    
+//    private var apiKey : String {
+//        return self.rawValue
+//    }
+//}
+//
+//class ApiKeyManager{
+//    func getKeyForApi(provider: ApiKeyProvider){
+//        //Read apikeys.plist and find apikey corresponding to ApiKeyProvider
+//        let filePathInBundle = NSBundle.mainBundle().pathForResource("apikeys", ofType: "plist")
+//        let keysDict : NSDictionary = NSDictionary(contentsOfFile: filePathInBundle!)!
+//        print (keysDict[provider.apiKey]!)
+//        
+//    }
+//}
