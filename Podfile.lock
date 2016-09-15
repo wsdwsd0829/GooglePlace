@@ -1,76 +1,220 @@
 PODS:
-  - AFNetworking (1.3.4)
+  - ActionSheetPicker-3.0 (2.1.0)
+  - AMScrollingNavbar (2.1.2)
+  - Analytics (3.3.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CleverTap-iOS-SDK (2.2.2)
+  - Crashlytics (3.7.3):
+    - Fabric (~> 1.6.3)
+  - CWStatusBarNotification (2.3.4)
+  - DeviceKit (0.3.3)
+  - Eureka (1.7.0)
+  - Fabric (1.6.8)
+  - FBSDKCoreKit (4.14.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.14.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.14.0):
+    - FBSDKCoreKit
+  - FDTake (0.3.3)
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
-  - OMGHTTPURLRQ (3.1.2):
-    - OMGHTTPURLRQ/RQ (= 3.1.2)
-  - OMGHTTPURLRQ/FormURLEncode (3.1.2)
-  - OMGHTTPURLRQ/RQ (3.1.2):
+  - JTSImageViewController (1.5.1)
+  - Kanna (1.1.0)
+  - KAProgressLabel (3.3.0)
+  - Koloda (3.1.1):
+    - pop (~> 1.0)
+  - Locksmith (2.0.8)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - NSDate+TimeAgo (1.0.6)
+  - OMGHTTPURLRQ (3.2.0):
+    - OMGHTTPURLRQ/RQ (= 3.2.0)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.0)
+  - OMGHTTPURLRQ/RQ (3.2.0):
     - OMGHTTPURLRQ/FormURLEncode
     - OMGHTTPURLRQ/UserAgent
-  - OMGHTTPURLRQ/UserAgent (3.1.2)
-  - PromiseKit (3.2.0):
-    - PromiseKit/Foundation (= 3.2.0)
-    - PromiseKit/QuartzCore (= 3.2.0)
-    - PromiseKit/UIKit (= 3.2.0)
-  - PromiseKit/CorePromise (3.2.0)
-  - PromiseKit/Foundation (3.2.0):
-    - OMGHTTPURLRQ (~> 3.1.0)
+  - OMGHTTPURLRQ/UserAgent (3.2.0)
+  - pop (1.0.9)
+  - PromiseKit (3.5.0):
+    - PromiseKit/Foundation (= 3.5.0)
+    - PromiseKit/QuartzCore (= 3.5.0)
+    - PromiseKit/UIKit (= 3.5.0)
+  - PromiseKit/CorePromise (3.5.0)
+  - PromiseKit/Foundation (3.5.0):
+    - OMGHTTPURLRQ (~> 3.2.0)
     - PromiseKit/CorePromise
-  - PromiseKit/QuartzCore (3.2.0):
+  - PromiseKit/QuartzCore (3.5.0):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (3.2.0):
+  - PromiseKit/UIKit (3.5.0):
     - PromiseKit/CorePromise
   - ReachabilitySwift (2.3.3)
-  - RestKit (0.25.0):
-    - RestKit/Core (= 0.25.0)
-  - RestKit/Core (0.25.0):
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
     - RestKit/CoreData
     - RestKit/Network
     - RestKit/ObjectMapping
-  - RestKit/CoreData (0.25.0):
+  - RestKit/CoreData (0.27.0):
     - RestKit/ObjectMapping
-  - RestKit/Network (0.25.0):
-    - AFNetworking (~> 1.3.0)
+  - RestKit/Network (0.27.0):
     - RestKit/ObjectMapping
     - RestKit/Support
     - SOCKit
-  - RestKit/ObjectMapping (0.25.0):
+  - RestKit/ObjectMapping (0.27.0):
     - ISO8601DateFormatterValueTransformer (~> 0.6.1)
     - RestKit/Support
     - RKValueTransformers (~> 1.1.0)
-  - RestKit/Support (0.25.0):
-    - TransitionKit (~> 2.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
   - RKValueTransformers (1.1.3)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SlackTextViewController (1.9.4)
   - SnapKit (0.22.0)
   - SOCKit (1.1)
+  - SVProgressHUD (2.0.3)
+  - SwiftCharts (0.4)
   - SwiftDate (3.0.8)
+  - SwiftValidator (3.0.3)
   - SwiftyJSON (2.3.2)
   - Swinject (1.1.2)
-  - TransitionKit (2.1.1)
+  - TPKeyboardAvoiding (1.3)
+  - TransitionKit (2.2.1)
+  - TTTAttributedLabel (2.0.0)
+  - TwitterCore (2.3.0):
+    - Fabric
+  - TwitterKit (2.3.0):
+    - TwitterCore (= 2.3.0)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - VideoSplashKit (1.1.0)
+  - YBTopAlignedCollectionViewFlowLayout (0.1)
 
 DEPENDENCIES:
-  - PromiseKit (~> 3.1)
-  - ReachabilitySwift
-  - RestKit (~> 0.25.0)
+  - ActionSheetPicker-3.0 (~> 2.1.0)
+  - AMScrollingNavbar (~> 2.1.2)
+  - Analytics (~> 3.0)
+  - CleverTap-iOS-SDK (~> 2.2)
+  - Crashlytics (~> 3.7.3)
+  - CWStatusBarNotification (~> 2.3)
+  - DeviceKit (~> 0.3)
+  - Eureka (~> 1.7.0)
+  - Fabric (~> 1.6.8)
+  - FBSDKCoreKit
+  - FBSDKLoginKit (~> 4.14.0)
+  - FBSDKShareKit
+  - FDTake (~> 0.3.3)
+  - JTSImageViewController (~> 1.5.1)
+  - Kanna (~> 1.1.0)
+  - KAProgressLabel (~> 3.3.0)
+  - Koloda (from `https://github.com/petalvlad/Koloda`)
+  - Locksmith (~> 2.0)
+  - MagicalRecord (~> 2.3)
+  - NSDate+TimeAgo (~> 1.0.6)
+  - PromiseKit (~> 3.5.0)
+  - ReachabilitySwift (~> 2.3.3)
+  - RestKit (~> 0.27.0)
+  - SlackTextViewController (~> 1.9.4)
   - SnapKit (~> 0.22)
-  - SwiftDate
+  - SVProgressHUD (~> 2.0)
+  - SwiftCharts (from `https://github.com/wsdwsd0829/SwiftCharts.git`)
+  - SwiftDate (~> 3.0.8)
+  - SwiftValidator (~> 3.0)
   - SwiftyJSON
   - Swinject (~> 1.1)
+  - TPKeyboardAvoiding (~> 1.3)
+  - TTTAttributedLabel (~> 2.0.0)
+  - TwitterCore (~> 2.3.0)
+  - TwitterKit (~> 2.3.0)
+  - UIActivityIndicator-for-SDWebImage (from `https://github.com/masterfego/UIActivityIndicator-for-SDWebImage`)
+  - VideoSplashKit (from `https://github.com/petalvlad/VideoSplashKit`)
+  - YBTopAlignedCollectionViewFlowLayout (from `https://github.com/benski/TopAlignedCollectionViewLayout`)
+
+EXTERNAL SOURCES:
+  Koloda:
+    :git: https://github.com/petalvlad/Koloda
+  SwiftCharts:
+    :git: https://github.com/wsdwsd0829/SwiftCharts.git
+  UIActivityIndicator-for-SDWebImage:
+    :git: https://github.com/masterfego/UIActivityIndicator-for-SDWebImage
+  VideoSplashKit:
+    :git: https://github.com/petalvlad/VideoSplashKit
+  YBTopAlignedCollectionViewFlowLayout:
+    :git: https://github.com/benski/TopAlignedCollectionViewLayout
+
+CHECKOUT OPTIONS:
+  Koloda:
+    :commit: 5f7e0a90853e6b4c7d776168c778c62323a8341e
+    :git: https://github.com/petalvlad/Koloda
+  SwiftCharts:
+    :commit: 6c2761e2fae923086ed85f3d7d9c091147c5dbb6
+    :git: https://github.com/wsdwsd0829/SwiftCharts.git
+  UIActivityIndicator-for-SDWebImage:
+    :commit: 3b5a4fb518810c044086eb2119675b397b41a914
+    :git: https://github.com/masterfego/UIActivityIndicator-for-SDWebImage
+  VideoSplashKit:
+    :commit: 4b85fee04874dbca2b6b2be3f3cb6b8e51270911
+    :git: https://github.com/petalvlad/VideoSplashKit
+  YBTopAlignedCollectionViewFlowLayout:
+    :commit: e90d5bd32bae6c4d037586dbdc3578039581ea47
+    :git: https://github.com/benski/TopAlignedCollectionViewLayout
 
 SPEC CHECKSUMS:
-  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  ActionSheetPicker-3.0: db66605feb85689279d328206c61f0e4f398df92
+  AMScrollingNavbar: 403b8651052459b433941bd4bc4215a64b992e52
+  Analytics: be3d952b8b0f21679e25af3b9dfbbab89597e897
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CleverTap-iOS-SDK: c828341aef8fef161e6a4d938729a100f7e7ab7c
+  Crashlytics: 76f6beaff70acf226139582c09c78461597c2b98
+  CWStatusBarNotification: 3fec41edcb0ae3677d9febfcb9632d8bdf52294c
+  DeviceKit: cb3f10c41c0d8d2a615ffc3f4ef947a0d73f1676
+  Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
+  FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
+  FBSDKShareKit: e8e5d4ccef69b41132fe33acda26db1e33143e33
+  FDTake: 5dab16fcd1e8e29acf7021299473930cb7fbc000
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
-  OMGHTTPURLRQ: 38316b56d88125c600bcdb16df8329147da2b0ee
-  PromiseKit: 1db024241265f428137a9f3c00ff9590740c4be6
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  Kanna: 355ed0193e5d8caf4fd996856b5bc98d586c11b6
+  KAProgressLabel: 8ef4544b66f2d8277f8349e0b5ffbab44c95f659
+  Koloda: 782e61549cafec9fd69fc70c4a8b54bce997894d
+  Locksmith: a8ed41ac4c06506ea8cb199d8ec8a8d3d108eb2a
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  NSDate+TimeAgo: 35601c619b2d59290055e4fe76e61d97677a2360
+  OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PromiseKit: 3a8a529c0571f8c2c423dba0897ff39bc060bf92
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
-  RestKit: a4fcaf3d4bb2c204679856a46d596160bf208095
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
   RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SlackTextViewController: d490f354dba963bc469a6b9ce3213978eaed67a5
   SnapKit: 0dd2fd157330f1ea11fd84da13e6be8a7a22bae0
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftCharts: 84b43d9d70b791459ff5f50ae5a6704326de309d
   SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  SwiftValidator: 0b6a48bf10364411b0d64c97f78665ff87ca9f8b
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   Swinject: 3debc5ac926dcd1be00947265a9db7a5f31b272a
-  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
+  TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  VideoSplashKit: 0aa63d0bb37c5bd357de3e6a2a13dea5acad4d66
+  YBTopAlignedCollectionViewFlowLayout: a9510017d2fb16de0c51666442b42ded313ed0f8
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 67b8cd0384c3cf677ec0c79d2e50fd3f5e48780d
+
+COCOAPODS: 1.0.1

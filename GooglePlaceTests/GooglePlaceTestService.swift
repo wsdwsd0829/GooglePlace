@@ -9,7 +9,7 @@
 import Foundation
 import PromiseKit
 import CoreLocation
-import SwiftyJSON
+//import SwiftyJSON
 
 enum JSONFileError: ErrorType {
     case PathError
