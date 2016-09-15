@@ -41,9 +41,9 @@ class ApplicationAssembly: AssemblyType {
         registerAllStroyboards(container)
         registerForAppDelegate(container)
         registerAllViewControllers(container)
-        container.register(ApiKeyManager.self) { r in
-            return ApiKeyManager()
-        }
+//        container.register(ApiKeyManager.self) { r in
+//            return ApiKeyManager()
+//        }
     }
     func registerAllStroyboards(container: Container){
         for storyboard in Storyboard.allStoryboards {
