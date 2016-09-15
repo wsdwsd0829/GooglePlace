@@ -3,6 +3,8 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
+    #JSON Parser
+    pod 'SwiftyJSON'
     # Networking
     pod 'RestKit', '~> 0.27.0'
     pod 'ReachabilitySwift', '~> 2.3.3' #, :git => 'https://github.com/ashleymills/Reachability.swift'

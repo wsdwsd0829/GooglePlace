@@ -84,6 +84,10 @@ PODS:
   - SwiftCharts (0.4)
   - SwiftDate (3.0.8)
   - SwiftValidator (3.0.3)
+<<<<<<< HEAD
+  - SwiftyJSON (2.3.2)
+=======
+>>>>>>> e7f03d2200904ee81eda7517e382952c57c1f587
   - Swinject (1.1.2)
   - TPKeyboardAvoiding (1.3)
   - TransitionKit (2.2.1)
@@ -127,6 +131,10 @@ DEPENDENCIES:
   - SwiftCharts (from `https://github.com/wsdwsd0829/SwiftCharts.git`)
   - SwiftDate (~> 3.0.8)
   - SwiftValidator (~> 3.0)
+<<<<<<< HEAD
+  - SwiftyJSON
+=======
+>>>>>>> e7f03d2200904ee81eda7517e382952c57c1f587
   - Swinject (~> 1.1)
   - TPKeyboardAvoiding (~> 1.3)
   - TTTAttributedLabel (~> 2.0.0)
@@ -202,6 +210,10 @@ SPEC CHECKSUMS:
   SwiftCharts: 84b43d9d70b791459ff5f50ae5a6704326de309d
   SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
   SwiftValidator: 0b6a48bf10364411b0d64c97f78665ff87ca9f8b
+<<<<<<< HEAD
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+=======
+>>>>>>> e7f03d2200904ee81eda7517e382952c57c1f587
   Swinject: 3debc5ac926dcd1be00947265a9db7a5f31b272a
   TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
   TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
@@ -212,6 +224,10 @@ SPEC CHECKSUMS:
   VideoSplashKit: 0aa63d0bb37c5bd357de3e6a2a13dea5acad4d66
   YBTopAlignedCollectionViewFlowLayout: a9510017d2fb16de0c51666442b42ded313ed0f8
 
+<<<<<<< HEAD
+PODFILE CHECKSUM: 67b8cd0384c3cf677ec0c79d2e50fd3f5e48780d
+=======
 PODFILE CHECKSUM: 5f4506f5a223e7f2943fc4072bf7362387a3d9af
+>>>>>>> e7f03d2200904ee81eda7517e382952c57c1f587
 
 COCOAPODS: 1.0.1
